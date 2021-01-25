@@ -1,0 +1,8 @@
+#!/bin/sh
+ln -sf ~/okiami/config.fish ~/.config/fish/config.fish
+ln -sf ~/okiami/.zshrc ~/.zshrc
+ln -sf ~/okiami/.tmux ~/.tmux
+ln -sf ~/okiami/.tmux.conf ~/.tmux.conf
+ln -sf ~/okiami/.gitignore_global ~/.gitignore_global
+ln -sf ~/okiami/.nanorc ~/.nanorc
+curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
