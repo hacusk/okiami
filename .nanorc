@@ -27,7 +27,7 @@ set tabstospaces
 ## 自動インデント
 # set autoindent
 ## スムーズスクロール
-set smooth
+# set smooth
 
 ## 有効にすると、後ろ向き(上方向)検索をデフォルトにする
 # set backwards

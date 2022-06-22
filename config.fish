@@ -22,6 +22,9 @@ status --is-interactive; and source (rbenv init -|psub)
 ## Golang
 set -x GOPATH $HOME/.go
 
+## Java
+set -x JAVA_HOME (/usr/libexec/java_home -v 11)
+
 ## Android
 set -x ANDROID_HOME $HOME/Library/Android/sdk
 
@@ -80,5 +83,5 @@ function fish_greeting
   echo ----------
   echo (echo -e "幸子「フフーン！今日も一日、ボクのために頑張ってくださいね！」\n春香「おはようございます、プロデューサーさん！」\nこのみ「さて、今日もやることがいっぱいね。一緒に頑張りましょ、プロデューサー！」\n智代子「あっ、プロデューサーさん、お帰りなさい！」" | sort -R | head -n 1)
 end
-
-source $HOME/.phpbrew/phpbrew.fish
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
