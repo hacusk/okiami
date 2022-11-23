@@ -44,7 +44,7 @@ set -gx PATH "$VOLTA_HOME/bin" $PATH
 # View
 function fish_prompt --description 'Write out the prompt'
   set_color -b cyan
-  set_color white
+  set_color black
   printf '%s@%s' $USER (prompt_hostname)
 
   set_color -b green
@@ -52,7 +52,7 @@ function fish_prompt --description 'Write out the prompt'
   printf ''
 
   set_color -b green
-  set_color white
+  set_color black
   printf '%s' (prompt_pwd)
 
   set_color -b yellow
@@ -60,7 +60,7 @@ function fish_prompt --description 'Write out the prompt'
   printf ''
 
   set_color -b yellow
-  set_color white
+  set_color black
   printf '%s' (__fish_git_prompt)
 
   set_color -b normal
