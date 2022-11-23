@@ -1,8 +1,28 @@
 #!/bin/sh
-ln -sf ~/okiami/config.fish ~/.config/fish/config.fish
-ln -sf ~/okiami/.zshrc ~/.zshrc
-ln -sf ~/okiami/.tmux ~/.tmux
-ln -sf ~/okiami/.tmux.conf ~/.tmux.conf
-ln -sf ~/okiami/.gitignore_global ~/.gitignore_global
-ln -sf ~/okiami/.nanorc ~/.nanorc
+
+mkdir -p ~/.config/
+
+# alacritty
+mkdir -p ~/.config/alacritty/
+ln -sf ~/okiami/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+
+# fish
+mkdir -p ~/.config/fish/
+ln -sf ~/okiami/fish/config.fish ~/.config/fish/config.fish
+
+## git
+mkdir ~/.config/git/
+ln -sf ~/okiami/git/ignore ~/.config/git/ignore
+
+# zsh
+ln -sf ~/okiami/zsh/.zshrc ~/.zshrc
+
+# tmux
+mkdir -p ~/.tmux/
+mkdir -p ~/.tmux/scripts/
+ln -sf ~/okiami/tmux/scripts ~/.tmux/scripts
+ln -sf ~/okiami/tmux/.tmux.conf ~/.tmux.conf
+
+## nano
+ln -sf ~/okiami/nano/.nanorc ~/.nanorc
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh

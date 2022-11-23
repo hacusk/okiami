@@ -46,8 +46,6 @@ set mouse
 # set nohelp
 ## ステータスバーの表示をすぐに消えるようにする
 # set quickblank
-## Ctrl+Zで一時停止し、シェルに戻れるようにする(戻るにはfg)
-set suspend
 ## 有効にすると、^Xを押したとき、保存の確認をせずに自動的に保存して終了する
 # set tempfile
 include "~/.nano/apacheconf.nanorc"

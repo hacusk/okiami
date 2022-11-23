@@ -54,9 +54,11 @@ esac
 
 # PATHの設定
 ## homebrew
-export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
-alias brew="env PATH=${PATH/\/Users\/${USER}\/\.pyenv\/shims:/} brew"
+# export PATH="/usr/local/bin:$PATH"
+# export PATH="/usr/local/sbin:$PATH"
+# alias brew="env PATH=${PATH/\/Users\/${USER}\/\.pyenv\/shims:/} brew"
+## homebrew(For Apple Silicon)
+eval $(/opt/homebrew/bin/brew shellenv)
 
 ## git
 export PATH="/usr/local/git/bin:$PATH"
