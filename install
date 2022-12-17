@@ -6,6 +6,9 @@ mkdir -p ~/.config/
 mkdir -p ~/.config/alacritty/
 ln -sf ~/okiami/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 
+# amethyst
+ln -sf ~/okiami/amethyst/amethyst.yml ~/.amethyst.yml
+
 # fish
 mkdir -p ~/.config/fish/
 ln -sf ~/okiami/fish/config.fish ~/.config/fish/config.fish

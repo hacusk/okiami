@@ -41,6 +41,10 @@ set -gx CPPFLAGS "-I/usr/local/opt/zlib/include"
 set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH
 
+## mysql-client
+set -gx LDFLAGS "-L/opt/homebrew/opt/mysql-client/lib"
+set -gx CPPFLAGS "-I/opt/homebrew/opt/mysql-client/include"
+
 # View
 function fish_prompt --description 'Write out the prompt'
   set_color -b cyan
