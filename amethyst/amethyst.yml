@@ -22,6 +22,6 @@ window-margins: true
 window-margin-size: 10
 
 # floating
-floating: [org.mozilla.firefox, org.alacritty]
+floating: [org.mozilla.firefox, org.alacritty, com.microsoft.VSCode]
 floating-is-blacklist: false
 float-small-windows: true

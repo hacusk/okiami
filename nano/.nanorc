@@ -1,21 +1,3 @@
-## シンタックスハイライトの設定
-include "~/.nano/syntax-nanorc/bash.nanorc"
-include "~/.nano/syntax-nanorc/c.nanorc"
-include "~/.nano/syntax-nanorc/c-file.nanorc"
-include "~/.nano/syntax-nanorc/css.nanorc"
-include "~/.nano/syntax-nanorc/html.nanorc"
-include "~/.nano/syntax-nanorc/java.nanorc"
-include "~/.nano/syntax-nanorc/js.nanorc"
-include "~/.nano/syntax-nanorc/markdown.nanorc"
-include "~/.nano/syntax-nanorc/nanorc.nanorc"
-include "~/.nano/syntax-nanorc/php.nanorc"
-include "~/.nano/syntax-nanorc/php2.nanorc"
-include "~/.nano/syntax-nanorc/python.nanorc"
-include "~/.nano/syntax-nanorc/ruby.nanorc"
-include "~/.nano/syntax-nanorc/sh.nanorc"
-include "~/.nano/syntax-nanorc/tex.nanorc"
-include "~/.nano/syntax-nanorc/xml.nanorc"
-
 ## 長い行の編集時に勝手に改行を入れてしまうのを防ぐ(重要!!必ず設定すること)
 set nowrap
 
