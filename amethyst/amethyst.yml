@@ -2,7 +2,7 @@
 layouts:
     - floating
     - fullscreen
-    - widescreen-tall
+    - tall-right
 
 # Add "command" to the default mods
 mod1:
@@ -19,9 +19,12 @@ focus-follows-mouse: false
 
 # Add 10px margin between windows
 window-margins: true
-window-margin-size: 10
+window-margin-size: 20
 
 # floating
-floating: [org.mozilla.firefox, org.alacritty, com.microsoft.VSCode]
+floating: [
+org.mozilla.firefox,
+org.alacritty,
+com.google.Chrome]
 floating-is-blacklist: false
 float-small-windows: true
