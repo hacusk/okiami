@@ -23,8 +23,9 @@ window-margin-size: 20
 
 # floating
 floating: [
-org.mozilla.firefox,
-org.alacritty,
-com.google.Chrome]
+    org.mozilla.firefox,
+    org.alacritty,
+    com.google.Chrome
+]
 floating-is-blacklist: false
 float-small-windows: true
