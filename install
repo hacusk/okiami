@@ -1,31 +1,21 @@
 #!/bin/sh
-
 mkdir -p ~/.config/
-
-# alacritty
+## alacritty
 mkdir -p ~/.config/alacritty/
 ln -sf ~/okiami/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
-
-# amethyst
+## amethyst
 ln -sf ~/okiami/amethyst/amethyst.yml ~/.amethyst.yml
-
-# fish
+## fish
 mkdir -p ~/.config/fish/
-ln -sf ~/okiami/fish/config.fish ~/.config/fish/config.fish
-
+ln -sf ~/okiami/fish/ ~/.config/fish/
 ## git
 mkdir ~/.config/git/
 ln -sf ~/okiami/git/ignore ~/.config/git/ignore
-
-# zsh
+## zsh
 ln -sf ~/okiami/zsh/.zshrc ~/.zshrc
-
-# tmux
+## tmux
 mkdir -p ~/.tmux/
-mkdir -p ~/.tmux/scripts/
-ln -sf ~/okiami/tmux/scripts ~/.tmux/scripts
+ln -sf ~/okiami/tmux ~/.tmux
 ln -sf ~/okiami/tmux/.tmux.conf ~/.tmux.conf
-
-## nano
-ln -sf ~/okiami/nano/.nanorc ~/.nanorc
-curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+## nvim
+ln -sf ~/okiami/nvim ~/.config/nvim
