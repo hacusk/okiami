@@ -1,21 +1,16 @@
 #!/bin/sh
 mkdir -p ~/.config/
 ## alacritty
-mkdir -p ~/.config/alacritty/
-ln -sf ~/okiami/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+ln -sf ~/okiami/alacritty ~/.config/alacritty
 ## amethyst
-ln -sf ~/okiami/amethyst/amethyst.yml ~/.amethyst.yml
+ln -sf ~/okiami/amethyst ~/.config/amethyst
 ## fish
-mkdir -p ~/.config/fish/
-ln -sf ~/okiami/fish/ ~/.config/fish/
+ln -sf ~/okiami/fish ~/.config/fish
 ## git
-mkdir ~/.config/git/
-ln -sf ~/okiami/git/ignore ~/.config/git/ignore
+ln -sf ~/okiami/git ~/.config/git
 ## zsh
 ln -sf ~/okiami/zsh/.zshrc ~/.zshrc
 ## tmux
-mkdir -p ~/.tmux/
-ln -sf ~/okiami/tmux ~/.tmux
-ln -sf ~/okiami/tmux/.tmux.conf ~/.tmux.conf
+ln -sf ~/okiami/tmux ~/.config/tmux
 ## nvim
 ln -sf ~/okiami/nvim ~/.config/nvim
