@@ -2,6 +2,7 @@
 layouts:
     - floating
     - fullscreen
+    - 3column-left
     - tall
 # Add "command" to the default mods
 mod1:
@@ -21,6 +22,7 @@ window-margin-size: 20
 floating: [
     org.mozilla.firefox,
     org.alacritty,
+    md.obsidian
 ]
 floating-is-blacklist: false
 float-small-windows: true
