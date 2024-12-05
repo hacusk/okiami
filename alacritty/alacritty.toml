@@ -54,6 +54,7 @@ size = 14.0
 
 [font.normal]
 family = "PlemolJP35 Console NF"
+style = "Regular"
 
 [window]
 opacity = 0.95
