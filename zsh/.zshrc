@@ -7,13 +7,6 @@ autoload -Uz colors; colors
 zstyle ":completion:*:default" menu select=1
 ## enable suggest
 setopt correct
-## alias
-alias q="exit"
-alias gcc="gcc -W -Wall"
-alias ll="ls -al"
-alias lf="ls -l"
-alias cls="clear"
-alias all_del_docker_images="docker images -aq | xargs docker rmi"
 # path
 ## homebrew(For Apple Silicon)
 eval $(/opt/homebrew/bin/brew shellenv)
