@@ -4,8 +4,6 @@ mkdir -p ~/.config/
 ln -sf ~/okiami/alacritty ~/.config/alacritty
 ## amethyst
 ln -sf ~/okiami/amethyst ~/.config/amethyst
-## fish
-ln -sf ~/okiami/fish ~/.config/fish
 ## git
 ln -sf ~/okiami/git ~/.config/git
 ## zsh
