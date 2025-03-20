@@ -2,8 +2,8 @@
 layouts:
     - floating
     - fullscreen
-    - 3column-left
-    - tall
+    - 3column-right
+    - tall-right
 # Add "command" to the default mods
 mod1:
     - option
@@ -21,6 +21,8 @@ window-margin-size: 20
 # floating
 floating: [
     org.mozilla.firefox,
+    com.microsoft.VSCode,
+    com.mitchellh.ghostty,
     org.alacritty,
     md.obsidian
 ]
