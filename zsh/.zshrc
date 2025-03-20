@@ -10,6 +10,8 @@ setopt correct
 # path
 ## homebrew(For Apple Silicon)
 eval $(/opt/homebrew/bin/brew shellenv)
+## aqua
+export PATH="${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin:$PATH"
 # visual
 ## show directory
 autoload -Uz vcs_info
