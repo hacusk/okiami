@@ -20,11 +20,16 @@ window-margins: true
 window-margin-size: 20
 # floating
 floating: [
+    com.gather.Gather,
+    com.microsoft.VSCode,
+    com.todesktop.230313mzl4w4u92,
     org.mozilla.firefox,
     com.microsoft.VSCode,
     com.mitchellh.ghostty,
     org.alacritty,
     md.obsidian
+    com.apple.Terminal,
+    com.google.Chrome,
 ]
 floating-is-blacklist: false
 float-small-windows: true
