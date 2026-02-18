@@ -2,3 +2,5 @@
 tags
 .idea/
 fish_variables
+
+**/.claude/settings.local.json
