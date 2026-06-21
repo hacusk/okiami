@@ -10,7 +10,6 @@ map("n", "<C-l>", "<C-w>l")
 -- map("n", "<C-w>", "<cmd>close<CR>")
 
 -- lazygit
-map("n", "<leader>gg", function()
-  vim.cmd("tabnew | terminal lazygit")
-  vim.cmd("startinsert")
-end)
+map("n", "<leader>gg", function() Snacks.lazygit.open() end, { desc = "Lazygit" })
+map("n", "<leader>gl", function() Snacks.lazygit.log() end, { desc = "Lazygit log" })
+map("n", "<leader>gf", function() Snacks.lazygit.log_file() end, { desc = "Lazygit log (current file)" })
