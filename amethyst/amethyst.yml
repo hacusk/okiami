@@ -27,7 +27,7 @@ floating: [
     com.microsoft.VSCode,
     com.mitchellh.ghostty,
     org.alacritty,
-    md.obsidian
+    md.obsidian,
     com.apple.Terminal,
     com.google.Chrome,
 ]
