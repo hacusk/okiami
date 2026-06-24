@@ -12,3 +12,7 @@ ln -sf ~/okiami/zsh/.zshrc ~/.zshrc
 ln -sf ~/okiami/tmux ~/.config/tmux
 ## nvim
 ln -sf ~/okiami/nvim ~/.config/nvim
+## aqua
+ln -sf ~/okiami/aquaproj-aqua ~/.config/aquaproj-aqua
+## mise
+ln -sf ~/okiami/mise ~/.config/mise
